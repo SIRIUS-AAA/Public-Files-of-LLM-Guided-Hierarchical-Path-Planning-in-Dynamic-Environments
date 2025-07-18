@@ -1,0 +1,39 @@
+- Description
+    You should find the shortest path from the start to the end in maps with size 30 * 30 and obstacles. You cannot pass through any obstacles, and you can only move to 4 adjacent squares from 4 directions: up, down, left, and right.
+    
+- Input
+    The input data is in the file Map.txt. In this file, you will receive several maps with size 30 * 30. For each map, the file indicates coordinates of the start points, the end points, and the obstacles with the following format:
+        Map n
+        Start: x y
+        End: x y
+        Obstacles:
+        x y
+        x y
+        x y
+        ...
+
+    The first line indicates the number of the current map. The second line indicates the coordinate of the start point. The third line indicates the coordinate of the end point. The forth line is the beginning of the description of the coordinates of the obstacles. From the fifth line, every line indicates the coordinate of one obstacle (you can never path through these points). 
+
+- Output
+    Here is the output format:
+        ...
+
+        Map n
+        Path Length: len
+        Path:
+        x y
+        x y
+        x y
+        ...
+
+        Map n + 1
+        Path Length: len
+        Path:
+        x y
+        x y
+        x y
+        ...
+
+        ...
+
+    The first line indicates the number of the current map. The second line indicates the time of movements. The third line indicates the beginning of the description of the shortest path from the start point to the end point. From the forth line, every line indicates the coordinate of the points on the shortest path.
